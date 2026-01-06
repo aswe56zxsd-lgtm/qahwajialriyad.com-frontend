@@ -1,0 +1,21 @@
+# robots.txt for qahwajialriyad.com
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_next/
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Sitemap location
+Sitemap: https://qahwajialriyad.com/sitemap.xml
+
+# Host
+Host: https://qahwajialriyad.com
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
