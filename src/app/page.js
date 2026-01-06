@@ -445,7 +445,7 @@ export default function HomePage() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-rich-black text-gray-400 pt-12 sm:pt-16 lg:pt-20 pb-8 sm:pb-10 border-t border-white/5 font-sans" role="contentinfo">
+      <footer className="bg-rich-black text-gray-300 pt-12 sm:pt-16 lg:pt-20 pb-8 sm:pb-10 border-t border-white/5 font-sans" role="contentinfo">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-10 lg:gap-12 mb-10 sm:mb-12 lg:mb-16">
             <div className="sm:col-span-2 lg:col-span-1">
@@ -503,7 +503,7 @@ export default function HomePage() {
               </ul>
             </address>
           </div>
-          <div className="border-t border-white/10 pt-6 sm:pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-[10px] sm:text-xs text-gray-500">
+          <div className="border-t border-white/10 pt-6 sm:pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-[10px] sm:text-xs text-gray-400">
             <p className="text-center sm:text-right">&copy; {new Date().getFullYear()} مؤسسة قهوجيين الرياض للضيافة. جميع الحقوق محفوظة.</p>
             <nav className="flex gap-4 sm:gap-6" aria-label="روابط قانونية">
               <a className="hover:text-white transition-colors" href="#">سياسة الخصوصية</a>
